@@ -1,0 +1,19 @@
+import java.io.*;
+public class FlightTest {
+public static void main( String args[]){
+
+Flight f=new Flight(4543,"Makah",25);
+
+Passenger p1=new Passenger("Ahmad Omar","10A","First");
+Passenger p2=new Passenger("Hanan Ali","34C","Guest");
+Passenger p3=new Passenger("Fahad Sufian","12J","First ");
+Passenger p4=new Passenger("Norah Ahmad","30F","Business ");
+
+f.addPassenger(p1);
+f.addPassenger(p2);
+f.addPassenger(p3);
+f.addPassenger(p4);
+
+
+
+}}//end
