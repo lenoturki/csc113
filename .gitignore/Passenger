@@ -1,0 +1,23 @@
+class Passenger {
+private String name;
+private String seat;
+private String pClass;
+
+public Passenger(String n,String s,String c){
+name=n;
+seat=s;
+pClass=c;
+}
+
+public Passenger(Passenger P){
+name=P.getName();
+seat=P.getSeat();
+pClass=P.getPClass();}
+
+public String getName(){return name;}
+public String getSeat(){return seat;}
+public String getPClass(){return pClass;}
+
+public String toString(){return "\nName :"+name+"\nSeat No. :"+seat+"\nClass of passenger :"+pClass;}
+
+}
